@@ -4,7 +4,7 @@ let n = 0;
 process.argv.forEach((val, index) => {
   n++;
 });
-if n<= 2) {
+if n <= 2) {
   console.log('No argument');
 } else if (n === 3) {
   console.log('Argument found');
