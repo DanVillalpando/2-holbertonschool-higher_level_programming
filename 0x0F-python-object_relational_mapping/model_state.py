@@ -12,7 +12,7 @@ Base = declarative_base()
 
 class State(Base):
     """
-    the class definition of a State and an instance 
+    the class definition of a State and an instance
     Base = declarative_base()
     """
     __tablename__ = 'states'
