@@ -21,7 +21,7 @@ def filter_Cities():
                          passwd=password, db=database)
 
     cur = db.cursor()
-    cur.execute("SELECT cities.id, cities.name, states.name\
+    cur.execute("SELECT cities.name\
                 FROM cities INNER JOIN states\
                 ON cities.state_id = states.id\
                 WHERE states.name=%s\
